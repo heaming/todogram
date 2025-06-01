@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/todogram-back" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/todogram-electron" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/todogram-front" vcs="Git" />
   </component>

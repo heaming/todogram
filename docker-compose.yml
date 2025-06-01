@@ -1,0 +1,17 @@
+services:
+  mysql:
+    image: mysql:8
+    container_name: todogram-mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: todogram_admin
+      MYSQL_DATABASE: todogram
+      MYSQL_USER: todogram
+      MYSQL_PASSWORD: todogrampassword
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+
+volumes:
+  mysql-data:
