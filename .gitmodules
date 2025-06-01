@@ -4,3 +4,6 @@
 [submodule "todogram-electron"]
 	path = todogram-electron
 	url = https://github.com/heaming/todogram-electron.git
+[submodule "todogram-back"]
+    path = todogram-back
+    url = https://github.com/heaming/todogram-back.git
